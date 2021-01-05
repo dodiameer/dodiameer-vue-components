@@ -1,7 +1,7 @@
 {
   "name": "dodiameer-vue-components",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A Vue component library by dodiameer",
 
   "main": "dist/dodiameer-vue-components.ssr.js",
   "browser": "dist/dodiameer-vue-components.esm.js",
