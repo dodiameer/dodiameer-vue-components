@@ -11,13 +11,11 @@
   "module": "dist/dodiameer-vue-components.esm.js",
   "unpkg": "dist/dodiameer-vue-components.min.js",
   "types": "dodiameer-vue-components.d.ts",
-
   "files": [
     "dist/*",
     "dodiameer-vue-components.d.ts",
     "src/**/*.vue"
   ],
-
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
@@ -25,10 +23,7 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-
-  "dependencies": {
-  },
-
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
@@ -54,5 +49,6 @@
   },
   "engines": {
     "node": ">=10"
-  }
+  },
+  "license": "LGPL-3.0-or-later"
 }
