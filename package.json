@@ -2,7 +2,10 @@
   "name": "dodiameer-vue-components",
   "version": "0.1.0",
   "description": "A Vue component library by dodiameer",
-
+  "author": {
+    "name": "dodiameer"
+  },
+  "private": false,
   "main": "dist/dodiameer-vue-components.ssr.js",
   "browser": "dist/dodiameer-vue-components.esm.js",
   "module": "dist/dodiameer-vue-components.esm.js",
